@@ -1,0 +1,15 @@
+<!----<h3>Hi</h3>
+<button type="button" class="btn btn-info">info</button>-->
+
+  <nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="currentUser">
+    <div class="navbar-nav">
+
+      <a class="nav-item nav-link" routerLink="/home">home</a>
+      <a class="nav-item nav-link" routerLink="/"></a>
+      <a class="nav-item nav-link" routerLink="/">Login</a>
+      <a class="nav-item nav-link" routerLink="/home">Logout</a>
+      <a class="nav-item nav-link" routerLink="/camera">Contactus</a>
+    </div>
+  </nav>
+
+<router-outlet></router-outlet>
